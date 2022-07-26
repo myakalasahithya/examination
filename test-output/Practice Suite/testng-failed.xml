@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Practice Suite]">
+  <test thread-count="5" name="Test Basics 1(failed)">
+    <classes>
+      <class name="Academy.E2E.Homepage">
+        <methods>
+          <include name="basepageNavigation"/>
+        </methods>
+      </class> <!-- Academy.E2E.Homepage -->
+    </classes>
+  </test> <!-- Test Basics 1(failed) -->
+</suite> <!-- Failed suite [Practice Suite] -->
